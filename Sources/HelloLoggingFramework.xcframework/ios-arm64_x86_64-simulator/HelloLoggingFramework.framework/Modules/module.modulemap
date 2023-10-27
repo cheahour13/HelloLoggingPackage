@@ -1,0 +1,6 @@
+framework module HelloLoggingFramework {
+  umbrella header "HelloLoggingFramework.h"
+  export *
+
+  module * { export * }
+}

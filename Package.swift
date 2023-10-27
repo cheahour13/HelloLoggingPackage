@@ -19,7 +19,7 @@ let package = Package(
         .testTarget(
             name: "HelloLoggingPackageTests",
             dependencies: ["HelloLoggingPackage"]),
-        .binaryTarget(name: "HelloLoggingFramework",
-                      path: "./Sources/HelloLoggingFramework.framework")
+        .binaryTarget(name: "HelloLogging",
+                      path: "./Sources/HelloLoggingFramework.xcframework")
     ]
 )
